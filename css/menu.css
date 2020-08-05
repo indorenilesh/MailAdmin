@@ -1,0 +1,40 @@
+<style>
+body 	{
+	background-color:#b0c4de;
+	} 
+.menutable	{
+			/*padding:2px;*/
+			font-family:"Times New Roman", Times, serif;
+			/*border-spacing:10px;*/
+			/*align:center;*/
+			/*border:#8D9DB2 10px solid;*/
+			font-size:20;
+		}
+#main-menu	{
+		width:280px;
+		height:auto;
+		margin-top:30px;
+		margin-left:20px;
+		/*margin-right:auto;*/
+		height:880px;
+/*		background-color:#8D9DB2;*/
+	}
+#main-menu-image	{
+			width:150px;
+			margin-top:auto;
+			margin-bottom:auto;
+			margin-left:auto;
+			margin-right:auto;
+			height:150px;
+			/*background-color:#F00F00;*/
+		}
+#main-menu-item	{
+			width:260px;
+			margin-top:auto;
+			margin-bottom:auto;
+			margin-left:auto;
+			margin-right:auto;
+			height:auto;
+			/*background-color:#981133;*/
+		}
+</style>

@@ -1,0 +1,22 @@
+/*var userlist = document.forms["group"]["select_muser"].value;
+document.forms["group"]["group_member"].value = userlist;
+var userlist = document.getElementByName("select_user").value;
+document.getElementByName("group_member").value = userlist;*/
+
+----------------
+
+document.getElementsByName("select_user").value=document.getElementsByName("group_member").value;
+
+----------------------
+
+var user = select.options[select.selectedIndex].value;
+
+-----------------------
+var x = document.getElementById("select_user").selectedIndex;
+var y = document.getElementById("select_user").options;
+var z = y[x].text;
+/*document.getElementById("group_member").text = z;*/
+/*document.textarea["select_user"].value = z;*/
+/*document.getElementById("group_member").value = y[x].text;*/
+document.forms["group"]["group_member"].value = "test";
+alert(z);
